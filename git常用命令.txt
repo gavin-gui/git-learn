@@ -37,3 +37,9 @@ git checkout -- <file>
 
 #13.把暂存区的修改退回到工作区
 git reset HEAD <file>
+
+#14.关联远程库
+git remote add origin git@server-name:path/repo-name.git
+
+#15.推送分支内容
+git push [-u] origin master #第一次推送要带上-u参数
