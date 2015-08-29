@@ -1,0 +1,19 @@
+#1.配置使用git仓库的人员姓名
+git config --global user.name "your name"
+
+#2.配置使用git仓库人员的email
+git config --global user.email "your email"
+
+#3.列举所有配置文件
+git config -l
+
+#4.初始化一个版本仓库
+git init
+
+#5.将文件修改添加到本地暂存区
+git add <file>
+
+#6.提交你的修改
+git commit -m "注释"
+
+
