@@ -17,3 +17,14 @@ git add <file>
 git commit -m "注释"
 
 
+#7.查看文件状态
+git status
+
+#8.查看提交历史
+git log
+
+#9.版本切换
+git reset --hard commit_id  or git reset --hard HEAD^
+
+#10.查看历史提交命令
+git reflog
