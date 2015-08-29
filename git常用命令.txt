@@ -28,3 +28,6 @@ git reset --hard commit_id  or git reset --hard HEAD^
 
 #10.查看历史提交命令
 git reflog
+
+#11.查看当前文件与暂存区中文件的区别
+git diff <file>
